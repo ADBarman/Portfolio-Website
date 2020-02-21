@@ -1,12 +1,24 @@
 body{
     font-family: 'Roboto', ;
+    font-size: 20px;
+
 }
-.container{
-    width: 50%;
+.half-width{
+    width: 40%;
+    float: left;
+    margin: 4%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 85%;
 }
 h1{
     font-size: 50px;;
 }
 .name-highlight{
-    color: orange;
+    color: purple;
+}
+.para{
+    text-align: justify;
+    line-height: 30px;
 }
