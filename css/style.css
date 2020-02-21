@@ -19,7 +19,7 @@ h1{
 h2{
     font-size: 40px;
 }
-.name-highlight{
+.purple-highlight{
     color: purple;
 }
 .para{
@@ -46,4 +46,8 @@ section{
     background-image: url("../images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-area{
+    background-image: url("../images/exp-bg.png");
+    background-repeat: no-repeat;
 }
