@@ -1,5 +1,5 @@
 body{
-    font-family: 'Roboto', ;
+    font-family: 'Roboto', san-serif;
     font-size: 20px;
     margin: 0;
 
@@ -13,11 +13,15 @@ body{
 .half-width img{
     width: 85%;
 }
+.half-width img:hover{
+    box-shadow: 10px 10px 50px rgb(243, 191, 241);
+    border-radius: 80px;
+}
 h1{
     font-size: 50px;;
 }
 h2{
-    font-size: 40px;
+    font-size: 35px;
 }
 .purple-highlight{
     color: purple;
