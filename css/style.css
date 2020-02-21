@@ -7,11 +7,11 @@ body{
 .half-width{
     width: 40%;
     float: left;
-    margin: 2%;
-    padding-left: 5%;
+    margin: 3%;
+    padding-left: 2%;
 }
 .half-width img{
-    width: 95%;
+    width: 85%;
 }
 h1{
     font-size: 50px;;
@@ -50,4 +50,41 @@ section{
 .experience-area{
     background-image: url("../images/exp-bg.png");
     background-repeat: no-repeat;
+    background-position: left;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+}
+.single-experience:hover{
+    box-shadow: 10px 10px 40px rgb(243, 191, 241);
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+}
+.box-para{
+    padding-right: 30px;
+    text-align: justify;
+    line-height: 30px;
+}
+.exp-pad{
+    margin-left: 4%;
+    margin-bottom: 0;
+}
+#full-stack-o{
+    border-left: 6px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#full-stack-b{
+    border-left: 6px solid;
+    border-image: linear-gradient(180deg, rgb(192, 147, 250), rgb(138, 3, 248));
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    color: purple;
+    font-size: 12px;
 }
